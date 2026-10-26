@@ -33,6 +33,7 @@ android {
 }
 
 dependencies {
+    implementation("androidx.recyclerview:recyclerview:1.4.0")
     implementation(libs.android.sdk)
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.appcompat)

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Puzzle Reminder</string>
+    <string name="temp_title">Title</string>
 </resources>

@@ -1,6 +1,5 @@
 package com.example.puzzlereminder
 
-import android.graphics.Color
 import android.hardware.Sensor
 import android.hardware.SensorEvent
 import android.hardware.SensorEventListener
@@ -16,7 +15,7 @@ class MapActivity : AppCompatActivity() , SensorEventListener{
     private var sensor : Sensor? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMapBinding.inflate(layoutinflater)
+        binding = ActivityMapBinding.inflate(layoutInflater)
         sensorManager = getSystemService(SENSOR_SERVICE) as SensorManager
         sensor = sensorManager.getDefaultSensor(Sensor.TYPE_LIGHT)
         setContentView(binding.root)
@@ -41,11 +40,11 @@ class MapActivity : AppCompatActivity() , SensorEventListener{
         if (lumos < 10000){
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
             setTextDarkTheme()
-            binding.main.setBackgroundResource(R.drawable.dark_theme)
+            binding.mapMain.setBackgroundResource(R.drawable.dark_theme)
         } else{
             AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
             setTextLightTheme()
-            binding.main.setBackgroundResource(R.drawable.background)
+            binding.mapMain.setBackgroundResource(R.drawable.background)
         }
     }
 

@@ -2,12 +2,67 @@
     <string name="app_name">Puzzle Reminder</string>
     <string name="temp_title">Title</string>
 
-    <string name="p_button_1">A</string>
-    <string name="p_button_2">B</string>
-    <string name="p_button_3">C</string>
-    <string name="p_button_4">D</string>
+    <string name="p_button_1">Hint 1</string>
+    <string name="p_button_2">Hint 2</string>
+    <string name="p_button_3">Hint 3</string>
 
     <string name="main_puzzle">Puzzles</string>
     <string name="main_map">Maps</string>
-    <string name="main_math">Math</string>
+    <string name="main_web">Web</string>
+
+    <string name="app_description">An app created to work on some puzzles and riddles, with the objective of having fun and make the brain work a bit.</string>
+
+    <string name="p1_hint1">Try tracing a path from any village on the map to see if it connects to any other village.
+        Try it a few times until you are confident you have the right answer.
+    </string>
+    <string name="p1_hint2">
+        Still stumped? Try tracing paths backwards, so that you start from a village and work your way back.
+        This will make it easy for you to see if any other villages are connected to the one you selected.
+    </string>
+    <string name="p1_hint3">
+        Just look for the village that\'s not connected to any other. In other words, any village that\'s connected
+        to another can\'t possibly be the right answer.
+        If you take a look at the map, you should be able to see any connections between villages with no trouble.
+    </string>
+
+    <string name="p2_hint1">
+        First, get a good, long look at the shape of the crank. How is the central axle shaped?
+        Are the little protrusions around the edges of the crank triangular or square?
+        Next, look at where those funny shapes stick out on the crank.
+    </string>
+    <string name="p2_hint2">
+        While you need to pay attention to the actual features of the crank and slot, you also need to remember that the shape of the slot is a mirror image of the crank.
+        That\'s right, you have to stare at the crank straight on and then look for the slot that mirrors it.
+    </string>
+    <string name="p2_hint3">
+        The central axle on the crank has five sides. There are three shapes attached to the main axle, one triangle and two squares.
+        One of the small squares sits right on top of one of the central axle\'s five corners, while the other two shapes sit flush on two sides of the axle.
+        All right, now you have everything you need. Don\'t forget that you need to flip the crank\'s shape when searching for the slot!
+    </string>
+
+    <string name="p3_hint1">
+        Don\'t just pick an answer based on what you see on the screen.
+        If this puzzle could be solved with a quick glance at the screen, it wouldn\'t be much of a puzzle, now would it?
+        The human eye perceives vertical and horizontal length differently.
+    </string>
+    <string name="p3_hint2">
+        B is certainly not the hat you are looking for.
+    </string>
+    <string name="p3_hint3">
+        D isn\'t the right hat either.
+    </string>
+
+    <string name="p4_hint1">
+        To face the morning sun, one must, of course, look eastward.
+        The map shows north pointing towards the top of the screen, so which direction indicates east?
+    </string>
+    <string name="p4_hint2">
+        The rising sun comes from the east. On this map, that means it comes from the right.
+        Therefore, if you follow the directions, you should be facing to the right after you take your last turn.
+    </string>
+    <string name="p4_hint3">
+        Trying to follow the directions from each house only complicates matters.
+        Instead, why not follow the directions in reverse? Needless to say, going backwards means the directions you turn will reverse as well.
+        Start by facing right, then head left down the road, then take a left, then another left…
+    </string>
 </resources>

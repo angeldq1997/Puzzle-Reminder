@@ -33,13 +33,13 @@ class MainActivity : AppCompatActivity() , SensorEventListener {
         }
 
         binding.bMap.setOnClickListener(){
-            //val i = Intent(this, MapActivity::class.java)
-            //startActivity(i)
+            val i = Intent(this, MapActivity::class.java)
+            startActivity(i)
         }
 
         binding.bWeb.setOnClickListener(){
-            //val i = Intent(this, WebActivity::class.java)
-            //startActivity(i)
+            val i = Intent(this, WebActivity::class.java)
+            startActivity(i)
         }
     }
 

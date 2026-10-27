@@ -2,13 +2,41 @@
     <string name="app_name">Puzzle Reminder</string>
     <string name="temp_title">Title</string>
 
-    <string name="p_button_1">Hint 1</string>
-    <string name="p_button_2">Hint 2</string>
-    <string name="p_button_3">Hint 3</string>
-
     <string name="main_puzzle">Puzzles</string>
     <string name="main_map">Maps</string>
     <string name="main_web">Web</string>
+
+    <string name="m_help">Here you will be prompted to select a point in the map and press the button when you think that you are correct.
+        It will show you if you are wrong, or you guessed correctly, after 4 questions you will finish.
+    </string>
+    <string name="m_question1">¿Where is the most famous spanish monument which couldn\'t be finished?</string>
+    <string name="m_question2">¿Where is the monument that has a prohibition to take photos at night but not at day?</string>
+    <string name="m_question3">¿Where is the tower with more degrees of inclination?</string>
+    <string name="m_question4">¿Where is the museum with the less secure password?</string>
+
+    <string name="m_correct">¡CONGRATULATIONS! Press the button to go to the next one</string>
+    <string name="m_all_correct">¡CONGRATULATIONS! You solved ALL maps questions correctly</string>
+    <string name="m_incorrect">That\'s not the location sorry :(</string>
+    <string name="m_close_incorrect">You are close to the location, try to put the marker more near to the location</string>
+    <string name="m_exit">EXIT :D</string>
+
+    <string name="m_b_enter_marker">Enter marker as solution</string>
+    <string name="m_b_start">Start</string>
+    <string name="m_b_continue">Next question</string>
+
+    <string name="p_name_1">Where\'s the Village?</string>
+    <string name="p_name_2">The Crank and Slot</string>
+    <string name="p_name_3">Strange Hats</string>
+    <string name="p_name_4">Where\'s My House?</string>
+
+    <string name="puzzle1">Puzzle 1</string>
+    <string name="puzzle2">Puzzle 2</string>
+    <string name="puzzle3">Puzzle 3</string>
+    <string name="puzzle4">Puzzle 4</string>
+
+    <string name="p_button_1">Hint 1</string>
+    <string name="p_button_2">Hint 2</string>
+    <string name="p_button_3">Hint 3</string>
 
     <string name="app_description">An app created to work on some puzzles and riddles, with the objective of having fun and make the brain work a bit.</string>
 

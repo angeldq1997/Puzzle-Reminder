@@ -6,4 +6,8 @@
     <string name="p_button_2">B</string>
     <string name="p_button_3">C</string>
     <string name="p_button_4">D</string>
+
+    <string name="main_puzzle">Puzzles</string>
+    <string name="main_map">Maps</string>
+    <string name="main_math">Math</string>
 </resources>

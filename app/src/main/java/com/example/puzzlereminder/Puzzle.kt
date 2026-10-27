@@ -1,9 +1,5 @@
 package com.example.puzzlereminder
 
-import android.widget.ImageView
-import com.google.android.material.button.MaterialButton
-import com.google.android.material.button.MaterialButtonGroup
-
 data class Puzzle(
     val name: String,
     val initialImage : Int,

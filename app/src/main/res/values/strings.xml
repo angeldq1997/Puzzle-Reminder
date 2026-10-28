@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Puzzle Reminder</string>
     <string name="temp_title">Title</string>
+    <string name="p_need_a_hint">¿Need a hint?</string>
 
     <string name="main_puzzle">Puzzles</string>
     <string name="main_map">Maps</string>

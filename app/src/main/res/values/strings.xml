@@ -39,7 +39,7 @@
     <string name="p_button_2">Hint 2</string>
     <string name="p_button_3">Hint 3</string>
 
-    <string name="app_description">An app created to work on some puzzles and riddles, with the objective of having fun and make the brain work a bit.</string>
+    <string name="app_description">An app created to remember some puzzles of the Layton saga, see hints if you need to solve any.</string>
 
     <string name="p1_hint1">Try tracing a path from any village on the map to see if it connects to any other village.
         Try it a few times until you are confident you have the right answer.
@@ -94,4 +94,10 @@
         Instead, why not follow the directions in reverse? Needless to say, going backwards means the directions you turn will reverse as well.
         Start by facing right, then head left down the road, then take a left, then another left…
     </string>
+
+    <string name="w_next">Next</string>
+    <string name="w_back">Back</string>
+
+    <string name="w_last_page">Can\'t advance, you are on last page</string>
+    <string name="w_first_page">Can\'t go back, you are on first page</string>
 </resources>

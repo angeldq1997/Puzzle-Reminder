@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/w_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
@@ -12,97 +12,41 @@
     tools:context=".WebActivity">
 
     <TextView
-        android:id="@+id/w_tv_help"
+        android:id="@+id/w_tv_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="7dp"
         android:layout_marginBottom="10dp"
-        android:text="@string/app_description"
+        android:text="@string/p_name_1"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="normal" />
 
     <WebView
-        android:layout_width="wrap_content"
-        android:layout_height="300dp" />
+        android:id="@+id/w_browser"
+        android:layout_width="match_parent"
+        android:layout_height="400dp" />
 
-    <com.google.android.material.button.MaterialButtonToggleGroup
-        android:id="@+id/w_bg_puzzles"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:selectionRequired="true"
-        app:checkedButton="@id/button_1"
-        app:singleSelection="true">
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/w_b_puzzle_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/p_name_1"
-            android:textColor="@color/white"
-            app:backgroundTint="@color/orange" />
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/w_b_puzzle_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/p_name_2"
-            android:textColor="@color/white"
-            app:backgroundTint="@color/orange" />
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/w_b_puzzle_3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/p_name_3"
-            android:textColor="@color/white"
-            app:backgroundTint="@color/orange" />
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/w_b_puzzle_4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/p_name_4"
-            android:textColor="@color/white"
-            app:backgroundTint="@color/orange" />
-
-    </com.google.android.material.button.MaterialButtonToggleGroup>/>
-
-    <com.google.android.material.button.MaterialButtonToggleGroup
-        android:id="@+id/w_bg_hints"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:selectionRequired="true"
-        app:checkedButton="@id/button_1"
-        app:singleSelection="true">
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/w_b_hint_1"
+        <Button
+            android:id="@+id/w_button_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/p_button_1"
-            android:textColor="@color/white"
-            app:backgroundTint="@color/purple_500" />
+            android:layout_marginRight="14dp"
+            android:layout_weight="1"
+            android:text="@string/w_back" />
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/w_b_hint_2"
+        <Button
+            android:id="@+id/w_button_next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/p_button_2"
-            android:textColor="@color/white"
-            app:backgroundTint="@color/purple_500" />
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/w_b_hint_3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/p_button_3"
-            android:textColor="@color/white"
-            app:backgroundTint="@color/purple_500" />
-
-    </com.google.android.material.button.MaterialButtonToggleGroup>/>
-
+            android:layout_weight="1"
+            android:text="@string/w_next" />
+    </LinearLayout>
 </LinearLayout>

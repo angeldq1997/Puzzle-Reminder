@@ -27,6 +27,7 @@ class PuzzleActivity : AppCompatActivity() , SensorEventListener{
             Puzzle(getString(R.string.p_name_2), R.drawable.puzzle2, getString(R.string.p2_hint1), getString(R.string.p2_hint2), getString(R.string.p2_hint3)),
             Puzzle(getString(R.string.p_name_3), R.drawable.puzzle3, getString(R.string.p3_hint1), getString(R.string.p3_hint2), getString(R.string.p3_hint3)),
             Puzzle(getString(R.string.p_name_4), R.drawable.puzzle4, getString(R.string.p4_hint1), getString(R.string.p4_hint2), getString(R.string.p4_hint3)),
+            Puzzle(getString(R.string.p_name_5), R.drawable.puzzle5, getString(R.string.p5_hint1), getString(R.string.p5_hint2), getString(R.string.p5_hint3)),
         )
 
         binding.pRecyclerView.layoutManager = LinearLayoutManager(this)

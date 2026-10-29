@@ -14,7 +14,7 @@
         android:id="@+id/ap_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/temp_title" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"

@@ -29,11 +29,13 @@
     <string name="p_name_2">The Crank and Slot</string>
     <string name="p_name_3">Strange Hats</string>
     <string name="p_name_4">Where\'s My House?</string>
+    <string name="p_name_5">Digital Digits</string>
 
     <string name="puzzle1">Puzzle 1</string>
     <string name="puzzle2">Puzzle 2</string>
     <string name="puzzle3">Puzzle 3</string>
     <string name="puzzle4">Puzzle 4</string>
+    <string name="puzzle5">Puzzle 5</string>
 
     <string name="p_button_1">Hint 1</string>
     <string name="p_button_2">Hint 2</string>
@@ -93,6 +95,20 @@
         Trying to follow the directions from each house only complicates matters.
         Instead, why not follow the directions in reverse? Needless to say, going backwards means the directions you turn will reverse as well.
         Start by facing right, then head left down the road, then take a left, then another left…
+    </string>
+
+    <string name="p5_hint1">
+        As mentioned earlier, this digital clock works on a 12-hour display system. This means you\'ll cycle through the numbers twice a day.
+        Therefore, before you submit your answer, you need to double the number of times you found to account for a.m. and p.m.
+    </string>
+    <string name="p5_hint2">
+        You probably have already picked up on combinations like 1:11 and 2:22, but finding the less obvious combinations is what makes up
+        the real meat of this problem.
+        Did you, for example, remember to include the time 10:00?
+    </string>
+    <string name="p5_hint3">
+        12:22 is another combination that\'s easy to overlook.
+        Also, have you thought about 11:12? Be sure to take a look at the various combinations that follow the above time as well.
     </string>
 
     <string name="w_next">Next</string>
